@@ -40,19 +40,21 @@ body {
   font-family: "Bungee Spice", sans-serif;
   background-color: #d25142;
   font-weight: 400;
-  color: #231336;
   font-style: normal;
-  width: 100px;
-  height: 150px;
+  width: 145px;
+  height: 38px;
   font-size: 28px;
   line-height: 1.2;
   padding: 5px;
   margin: auto;
   border-radius: 20px;
   box-shadow: 2px 2px 3px  	#000000;
-  text-align:justify;
+  text-align:center;
 }
 
+#socials a {
+  color: #231336;
+}
 
 button {
   box-shadow: 2px 2px 3px  	#000000;
@@ -75,16 +77,19 @@ ul {
   list-style: none;
 }
 
-img {
+#profilePic {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  box-shadow: 2px 2px 3px  	#000000;
+  box-shadow: 10px 10px 10px  	black;
+  outline: #fd9702;
+  outline-style: double;
+  outline-width: 5px;
 
 }
 
 i:hover {
-  color: #09ff00;
+  color: greenyellow;
 }
 
 @media (max-width: 960px) {
